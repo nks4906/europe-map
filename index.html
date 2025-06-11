@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Europe Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Europe Map</h1>
+
+  <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .country {
+        fill: #6CADD6;
+        stroke: #ffffff;
+        stroke-width: 1;
+        cursor: pointer;
+        transition: fill 0.3s;
+      }
+      .country:hover {
+        fill: #406a9c;
+      }
+      text {
+        font-family: sans-serif;
+        font-size: 12px;
+        pointer-events: none;
+        fill: white;
+      }
+    </style>
+
+    <!-- 프랑스 -->
+    <a href="https://namkoong7.tistory.com/entry/france" target="_blank" rel="noopener">
+      <rect x="100" y="300" width="80" height="50" class="country" />
+      <text x="120" y="330">France</text>
+    </a>
+
+    <!-- 독일 -->
+    <a href="https://namkoong7.tistory.com/entry/germany" target="_blank" rel="noopener">
+      <rect x="200" y="250" width="80" height="50" class="country" />
+      <text x="220" y="280">Germany</text>
+    </a>
+
+    <!-- 이탈리아 -->
+    <a href="https://namkoong7.tistory.com/entry/italy" target="_blank" rel="noopener">
+      <rect x="250" y="350" width="80" height="50" class="country" />
+      <text x="270" y="380">Italy</text>
+    </a>
+
+    <!-- 영국 -->
+    <a href="https://namkoong7.tistory.com/entry/united-kingdom" target="_blank" rel="noopener">
+      <rect x="90" y="200" width="80" height="50" class="country" />
+      <text x="100" y="230">UK</text>
+    </a>
+
+    <!-- 추가 국가 여기에 계속 추가 가능 -->
+  </svg>
+
+  <p style="text-align: center; margin-top: 2em;">
+    © 2025 Namkoong7. All rights reserved.
+  </p>
+</body>
+</html>
