@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Europe Map</title>
-  <style>
-    body { font-family: sans-serif; text-align: center; }
-    svg { max-width: 1000px; width: 100%; height: auto; margin: auto; }
-  </style>
-</head>
-<body>
-  <h1>Europe Map with Blog Links</h1>
-  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="100%" height="auto" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
   <title>Europe Interactive Map</title>
   <desc>Clickable map of Europe linking to blog posts</desc>
@@ -117,6 +104,3 @@
   </a>
 
 </svg>
-  <footer style="margin-top: 2em;">© 2025 Namkoong7</footer>
-</body>
-</html>
