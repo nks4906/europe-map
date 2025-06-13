@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Europe Map</title>
+  <title>Europe Map Interactive</title>
   <style>
     body {
       font-family: sans-serif;
@@ -12,123 +12,143 @@
       padding: 0;
     }
     svg {
-      max-width: 1000px;
       width: 100%;
       height: auto;
-      margin: auto;
       display: block;
+      margin: 0 auto;
     }
     a:hover rect {
-      fill: #FF9933;
+      stroke: #FF9933;
+      stroke-width: 2;
+      fill: rgba(255, 153, 51, 0.1);
       transition: 0.3s;
     }
   </style>
 </head>
 <body>
-  <h1>Europe Map with Blog Links</h1>
+  <h1>Europe Map with Clickable Links</h1>
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="100%" height="auto" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
-  <title>Europe Interactive Map</title>
-  <desc>Clickable map of Europe linking to blog posts</desc>
-
+  <image href="europe_map_background.png" x="0" y="0" width="1000" height="800" />
+  
   <a href="https://namkoong7.tistory.com/entry/uk" target="_blank">
-    <rect x="60" y="250" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="70" y="270" font-size="12" fill="white">UK</text>
+    <rect x="60" y="250" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>UK</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/france" target="_blank">
-    <rect x="160" y="360" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="170" y="380" font-size="12" fill="white">France</text>
+    <rect x="160" y="360" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>France</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/germany" target="_blank">
-    <rect x="260" y="300" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="270" y="320" font-size="12" fill="white">Germany</text>
+    <rect x="260" y="300" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Germany</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/italy" target="_blank">
-    <rect x="240" y="420" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="250" y="440" font-size="12" fill="white">Italy</text>
+    <rect x="240" y="420" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Italy</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/austria" target="_blank">
-    <rect x="320" y="340" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="330" y="360" font-size="12" fill="white">Austria</text>
+    <rect x="320" y="340" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Austria</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/greece" target="_blank">
-    <rect x="400" y="480" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="410" y="500" font-size="12" fill="white">Greece</text>
+    <rect x="400" y="480" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Greece</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/spain" target="_blank">
-    <rect x="100" y="440" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="110" y="460" font-size="12" fill="white">Spain</text>
+    <rect x="100" y="440" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Spain</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/denmark" target="_blank">
-    <rect x="280" y="240" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="290" y="260" font-size="12" fill="white">Denmark</text>
+    <rect x="280" y="240" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Denmark</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/norway" target="_blank">
-    <rect x="300" y="120" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="310" y="140" font-size="12" fill="white">Norway</text>
+    <rect x="300" y="120" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Norway</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/sweden" target="_blank">
-    <rect x="360" y="140" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="370" y="160" font-size="12" fill="white">Sweden</text>
+    <rect x="360" y="140" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Sweden</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/poland" target="_blank">
-    <rect x="340" y="280" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="350" y="300" font-size="12" fill="white">Poland</text>
+    <rect x="340" y="280" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Poland</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/netherlands" target="_blank">
-    <rect x="260" y="260" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="270" y="280" font-size="12" fill="white">Netherlands</text>
+    <rect x="260" y="260" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Netherlands</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/belgium" target="_blank">
-    <rect x="240" y="280" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="250" y="300" font-size="12" fill="white">Belgium</text>
+    <rect x="240" y="280" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Belgium</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/portugal" target="_blank">
-    <rect x="80" y="460" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="90" y="480" font-size="12" fill="white">Portugal</text>
+    <rect x="80" y="460" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Portugal</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/czech" target="_blank">
-    <rect x="320" y="300" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="330" y="320" font-size="12" fill="white">Czech</text>
+    <rect x="320" y="300" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Czech</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/switzerland" target="_blank">
-    <rect x="260" y="320" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="270" y="340" font-size="12" fill="white">Switzerland</text>
+    <rect x="260" y="320" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Switzerland</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/finland" target="_blank">
-    <rect x="420" y="100" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="430" y="120" font-size="12" fill="white">Finland</text>
+    <rect x="420" y="100" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Finland</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/romania" target="_blank">
-    <rect x="420" y="340" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="430" y="360" font-size="12" fill="white">Romania</text>
+    <rect x="420" y="340" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Romania</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/hungary" target="_blank">
-    <rect x="360" y="320" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="370" y="340" font-size="12" fill="white">Hungary</text>
+    <rect x="360" y="320" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Hungary</title>
+    </rect>
   </a>
 
   <a href="https://namkoong7.tistory.com/entry/turkey" target="_blank">
-    <rect x="460" y="500" width="80" height="30" fill="#3399cc" rx="6" ry="6"/>
-    <text x="470" y="520" font-size="12" fill="white">Turkey</text>
+    <rect x="460" y="500" width="80" height="30" fill="transparent" stroke="#FF9933" stroke-width="0" rx="6" ry="6">
+      <title>Turkey</title>
+    </rect>
   </a>
 
 </svg>
